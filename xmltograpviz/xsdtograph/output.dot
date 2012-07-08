@@ -1,0 +1,30 @@
+digraph {
+subgraph clusterSchemaImpl29997514 { label=""
+ModelGroupImpl31564808 [shape="record", label="{sequence of}"];
+ComplexTypeImpl15138573 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl12170552>dir: NCName}|{<AttributeUseImpl2654289>lang: NCName}|{<AttributeUseImpl16795115>xml_lang: NCName}|{<AttributeUseImpl15628820>xmlns_msdt: anyURI}|{<AttributeUseImpl9489155>xmlns_o: anyURI}}}}", color="red"];
+ElementDecl31161848 [shape="record", label="{head}", color="blue"];
+ElementDecl33208902 [shape="record", label="{script}", color="blue"];
+ElementDecl5230193 [shape="record", label="{title|{Type|string}}", color="blue"];
+ComplexTypeImpl24962279 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl20196260>content: anySimpleType}|{<AttributeUseImpl1913643>http-equiv: NCName}|{<AttributeUseImpl17459938>name: NCName}}}}", color="red"];
+ComplexTypeImpl12107511 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl13756574>type: anySimpleType}}}}", color="red"];
+ElementDecl20631685 [shape="record", label="{body}", color="blue"];
+SchemaImpl29997514 [shape="record", label="{}"];
+ComplexTypeImpl10969598 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl19610963 [shape="record", label="{meta}", color="blue"];
+ComplexTypeImpl19106770 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl24807938 [shape="record", label="{html}", color="blue"];
+ModelGroupImpl9319143 [shape="record", label="{sequence of}"];
+}
+ModelGroupImpl9319143 -> ElementDecl5230193 [arrowhead="tee", arrowtail="diamond"];
+ComplexTypeImpl10969598 -> ModelGroupImpl9319143 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl9319143 -> ElementDecl33208902 [arrowhead="crowtee", arrowtail="diamond"];
+ElementDecl20631685 -> ComplexTypeImpl19106770 [arrowhead="normal"];
+ModelGroupImpl31564808 -> ElementDecl20631685 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl24807938 -> ComplexTypeImpl15138573 [arrowhead="normal"];
+ComplexTypeImpl15138573 -> ModelGroupImpl31564808 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl33208902 -> ComplexTypeImpl12107511 [arrowhead="normal"];
+ModelGroupImpl31564808 -> ElementDecl31161848 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl9319143 -> ElementDecl19610963 [arrowhead="crowtee", arrowtail="diamond"];
+ElementDecl31161848 -> ComplexTypeImpl10969598 [arrowhead="normal"];
+ElementDecl19610963 -> ComplexTypeImpl24962279 [arrowhead="normal"];
+}

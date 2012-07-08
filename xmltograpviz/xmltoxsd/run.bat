@@ -1,0 +1,1 @@
+java -jar trang.jar VIPS.xml VIPS.xsd

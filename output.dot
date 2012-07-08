@@ -1,0 +1,33 @@
+digraph "graph"{ node [ shape=record, sides=4, distortion="0.0", orientation="0.0", skew="0.0", color=black, style=bold];
+"Main Page"[
+ label="{Main Page||}"
+]
+"Header"[
+ label="{Header||Skip to navigation\lSkip to main content\lScreen Reader Access\l}"
+]
+" 1-2"[
+ label="{ 1-2||}"
+]
+" 1-2-1"[
+ label="{ 1-2-1||Home\lCitizen\lBusiness\lTourist\lGovernment\lOther Government Departments\lSearch\l}"
+]
+" 1-2-2"[
+ label="{ 1-2-2||}"
+]
+" 1-2-2-1"[
+ label="{ 1-2-2-1||Gazetteers\lEco Survey\lExternal link- Maharashtra Tourism\lAwards\lTelephone Directory\lCitizen Charter\le-Scholarship\le-Scholarship\lExternal link- Maha News - opens in a new Window\lExternal link- Special Report on Aadhaar - opens in a new window\lMaharashtra State History\lJudiciary\lGovernment Departments\lLocal Bodies\lDistricts\lRTI ACT 2005\lExternal link- MahaOnline for Citizen eServices -opens in a new window\lspotlight\lComplaint Registration System\l}"
+]
+"Side Menu"[
+ label="{Side Menu||Profile\lExternal link- Visit Governor's Website- open in a new window\lProfile\lProfile\lNews\lTenders\lTenders\lTenders\lGovernment Resolutions\lGovernment Resolutions\lGovernment Resolutions\lGovernment Resolutions\lFrom CM's Desk\lFrom CM's Desk\lRate Contracts\lRate Contracts\lPrint\lEmail\lBookmark\l}"
+]
+"Footer"[
+ label="{Footer||External link - National Portal of India - Opens in a new window\lExternal link - Mumbai Police Website - Opens in a new window\lExternal link - Maharashtra State Police Website - Opens in a new window\lExternal link - Mumbai Traffic Police Website - Opens in a new window\lExternal link - Maharashtra Tourism Website - Opens in a new window&#13;&#10;\lExternal link - Maharashtra Lok Rajya News - Opens in a new window\lExternal link - Maha News website - Opens in a new window\lExternal link - Maharashtra State Transport website - Opens in a new window\lGovernment of Maharashtra\lGovernment of Maharashtra\lPrivacy Policy\lCopyright Information\lTerms of Use\lFeedback\lHacking Notification\lContact Us\lSitemap\lHelp\l}"
+]
+"Main Page"->"Header"[dir="back"];
+"Main Page"->" 1-2"[dir="back"];
+"Main Page"->"Footer"[dir="back"];
+"Header0"->" 1-2-1"[dir="back"];
+"Header0"->" 1-2-2"[dir="back"];
+"Header001"->" 1-2-2-1"[dir="back"];
+"Header001"->"Side Menu"[dir="back"];
+}

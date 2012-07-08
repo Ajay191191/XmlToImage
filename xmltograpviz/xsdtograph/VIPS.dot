@@ -1,0 +1,17 @@
+digraph {
+subgraph clusterSchemaImpl27475272 { label=""
+ElementDecl10805987 [shape="record", label="{LayoutNode}", color="blue"];
+SchemaImpl27475272 [shape="record", label="{}"];
+ModelGroupImpl21764429 [shape="record", label="{sequence of}"];
+ComplexTypeImpl5862378 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl17152415>BgColor: anySimpleType}|{<AttributeUseImpl14525019>ContainImg: integer}|{<AttributeUseImpl13508999>ContainP: integer}|{<AttributeUseImpl16471729>ContainTable: boolean}|{<AttributeUseImpl16291471>Content: anySimpleType}|{<AttributeUseImpl6603598>DOMCldNum: integer}|{<AttributeUseImpl22172629>DoC: integer}|{<AttributeUseImpl33414193>FontSize: integer}|{<AttributeUseImpl25383554>FontWeight: integer}|{<AttributeUseImpl10351444>FrameSourceIndex: integer}|{<AttributeUseImpl30549415>ID: NMTOKEN}|{<AttributeUseImpl27667505>IsImg: boolean}|{<AttributeUseImpl10440721>LinkTextLen: integer}|{<AttributeUseImpl21083505>ObjectRectHeight: integer}|{<AttributeUseImpl15668093>ObjectRectLeft: integer}|{<AttributeUseImpl32012057>ObjectRectTop: integer}|{<AttributeUseImpl14886914>ObjectRectWidth: integer}|{<AttributeUseImpl22528701>SRC: anySimpleType}|{<AttributeUseImpl11678224>SourceIndex: integer}|{<AttributeUseImpl16053322>TextLen: integer}|{<AttributeUseImpl30562042>order: integer}}}}", color="red"];
+ElementDecl19642336 [shape="record", label="{VIPSPage}", color="blue"];
+ModelGroupImpl25352765 [shape="record", label="{sequence of}"];
+ComplexTypeImpl19690856 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl10446619>PageRectHeight: integer}|{<AttributeUseImpl19543955>PageRectLeft: integer}|{<AttributeUseImpl10933534>PageRectTop: integer}|{<AttributeUseImpl15842168>PageRectWidth: integer}|{<AttributeUseImpl4916061>PageTitle: anySimpleType}|{<AttributeUseImpl13238549>Url: anyURI}|{<AttributeUseImpl860069>WindowHeight: integer}|{<AttributeUseImpl26780757>WindowWidth: integer}|{<AttributeUseImpl5041714>neworder: integer}|{<AttributeUseImpl11155366>order: integer}}}}", color="red"];
+}
+ComplexTypeImpl19690856 -> ModelGroupImpl21764429 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl25352765 -> ElementDecl10805987 [arrowhead="crowteeodot", arrowtail="diamond"];
+ElementDecl10805987 -> ComplexTypeImpl5862378 [arrowhead="normal"];
+ModelGroupImpl21764429 -> ElementDecl10805987 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl19642336 -> ComplexTypeImpl19690856 [arrowhead="normal"];
+ComplexTypeImpl5862378 -> ModelGroupImpl25352765 [arrowhead="tee", arrowtail="diamond"];
+}

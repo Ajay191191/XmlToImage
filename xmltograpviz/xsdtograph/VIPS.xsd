@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="VIPSPage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LayoutNode"/>
+      </xs:sequence>
+      <xs:attribute name="PageRectHeight" use="required" type="xs:integer"/>
+      <xs:attribute name="PageRectLeft" use="required" type="xs:integer"/>
+      <xs:attribute name="PageRectTop" use="required" type="xs:integer"/>
+      <xs:attribute name="PageRectWidth" use="required" type="xs:integer"/>
+      <xs:attribute name="PageTitle" use="required"/>
+      <xs:attribute name="Url" use="required" type="xs:anyURI"/>
+      <xs:attribute name="WindowHeight" use="required" type="xs:integer"/>
+      <xs:attribute name="WindowWidth" use="required" type="xs:integer"/>
+      <xs:attribute name="neworder" use="required" type="xs:integer"/>
+      <xs:attribute name="order" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayoutNode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="LayoutNode"/>
+      </xs:sequence>
+      <xs:attribute name="BgColor" use="required"/>
+      <xs:attribute name="ContainImg" use="required" type="xs:integer"/>
+      <xs:attribute name="ContainP" use="required" type="xs:integer"/>
+      <xs:attribute name="ContainTable" use="required" type="xs:boolean"/>
+      <xs:attribute name="Content"/>
+      <xs:attribute name="DOMCldNum" use="required" type="xs:integer"/>
+      <xs:attribute name="DoC" use="required" type="xs:integer"/>
+      <xs:attribute name="FontSize" use="required" type="xs:integer"/>
+      <xs:attribute name="FontWeight" use="required" type="xs:integer"/>
+      <xs:attribute name="FrameSourceIndex" use="required" type="xs:integer"/>
+      <xs:attribute name="ID" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="IsImg" use="required" type="xs:boolean"/>
+      <xs:attribute name="LinkTextLen" use="required" type="xs:integer"/>
+      <xs:attribute name="ObjectRectHeight" use="required" type="xs:integer"/>
+      <xs:attribute name="ObjectRectLeft" use="required" type="xs:integer"/>
+      <xs:attribute name="ObjectRectTop" use="required" type="xs:integer"/>
+      <xs:attribute name="ObjectRectWidth" use="required" type="xs:integer"/>
+      <xs:attribute name="SRC"/>
+      <xs:attribute name="SourceIndex" use="required" type="xs:integer"/>
+      <xs:attribute name="TextLen" use="required" type="xs:integer"/>
+      <xs:attribute name="order" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

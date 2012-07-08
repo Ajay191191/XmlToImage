@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xhtml" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="html">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xhtml:head"/>
+        <xs:element ref="xhtml:body"/>
+      </xs:sequence>
+      <xs:attribute name="dir" use="required" type="xs:NCName"/>
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+      <xs:attribute ref="xml:lang" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="head">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="xhtml:meta"/>
+        <xs:element ref="xhtml:link"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="xhtml:script"/>
+          <xs:element ref="xhtml:style"/>
+          <xs:element ref="xhtml:title"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meta">
+    <xs:complexType>
+      <xs:attribute name="content" use="required"/>
+      <xs:attribute name="http-equiv" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link">
+    <xs:complexType>
+      <xs:attribute name="href" use="required"/>
+      <xs:attribute name="rel" use="required" type="xs:NCName"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="style">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required"/>
+      <xs:attribute ref="xml:space" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="xhtml:br"/>
+        <xs:element ref="xhtml:div"/>
+        <xs:element ref="xhtml:script"/>
+        <xs:element ref="xhtml:table"/>
+      </xs:choice>
+      <xs:attribute name="bgcolor" use="required"/>
+      <xs:attribute name="link" use="required"/>
+      <xs:attribute name="onload" use="required"/>
+      <xs:attribute name="vlink" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="script">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required"/>
+      <xs:attribute ref="xml:space" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="xhtml:tr"/>
+        <xs:element minOccurs="0" ref="xhtml:tbody"/>
+      </xs:sequence>
+      <xs:attribute name="align" type="xs:NCName"/>
+      <xs:attribute name="bgcolor"/>
+      <xs:attribute name="border" type="xs:integer"/>
+      <xs:attribute name="cellpadding" type="xs:integer"/>
+      <xs:attribute name="cellspacing" type="xs:integer"/>
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="onclick"/>
+      <xs:attribute name="width"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tbody">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="xhtml:tr"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="br">
+    <xs:complexType>
+      <xs:attribute name="clear" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="xhtml:br"/>
+        <xs:element ref="xhtml:div"/>
+        <xs:element ref="xhtml:font"/>
+        <xs:element ref="xhtml:p"/>
+        <xs:element ref="xhtml:script"/>
+        <xs:element ref="xhtml:span"/>
+        <xs:element ref="xhtml:table"/>
+        <xs:element ref="xhtml:form"/>
+        <xs:element ref="xhtml:h2"/>
+        <xs:element ref="xhtml:ul"/>
+      </xs:choice>
+      <xs:attribute name="align" type="xs:NCName"/>
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="style"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="form">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="xhtml:div"/>
+        <xs:element maxOccurs="unbounded" ref="xhtml:input"/>
+      </xs:sequence>
+      <xs:attribute name="action" use="required" type="xs:anyURI"/>
+      <xs:attribute name="enctype" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="method" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="onsubmit" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="h2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xhtml:font"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ul">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="xhtml:li"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="li">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xhtml:font"/>
+      </xs:sequence>
+      <xs:attribute name="class" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="xhtml:td"/>
+      </xs:sequence>
+      <xs:attribute name="bgcolor"/>
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="valign" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="td">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0">
+          <xs:element ref="xhtml:a"/>
+          <xs:element ref="xhtml:span"/>
+          <xs:element ref="xhtml:label"/>
+        </xs:choice>
+        <xs:choice minOccurs="0">
+          <xs:element ref="xhtml:br"/>
+          <xs:sequence>
+            <xs:element ref="xhtml:h1"/>
+            <xs:element ref="xhtml:p"/>
+          </xs:sequence>
+        </xs:choice>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="xhtml:div"/>
+          <xs:element ref="xhtml:font"/>
+          <xs:element ref="xhtml:input"/>
+          <xs:element ref="xhtml:table"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="xhtml:img"/>
+      </xs:sequence>
+      <xs:attribute name="align" type="xs:NCName"/>
+      <xs:attribute name="bgcolor"/>
+      <xs:attribute name="class"/>
+      <xs:attribute name="colspan" use="required" type="xs:integer"/>
+      <xs:attribute name="height" type="xs:decimal"/>
+      <xs:attribute name="nowrap" type="xs:NCName"/>
+      <xs:attribute name="rowspan" use="required" type="xs:integer"/>
+      <xs:attribute name="style" type="xs:NMTOKEN"/>
+      <xs:attribute name="valign" type="xs:NCName"/>
+      <xs:attribute name="width"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="label">
+    <xs:complexType mixed="true">
+      <xs:attribute name="class" use="required"/>
+      <xs:attribute name="for" use="required" type="xs:NCName"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="h1" type="xs:string"/>
+  <xs:element name="img">
+    <xs:complexType>
+      <xs:attribute name="align" type="xs:NCName"/>
+      <xs:attribute name="alt" use="required" type="xs:NCName"/>
+      <xs:attribute name="border" type="xs:integer"/>
+      <xs:attribute name="height" type="xs:integer"/>
+      <xs:attribute name="src" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="font">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="xhtml:a"/>
+        <xs:element ref="xhtml:br"/>
+        <xs:element ref="xhtml:font"/>
+        <xs:element ref="xhtml:span"/>
+        <xs:element ref="xhtml:b"/>
+      </xs:choice>
+      <xs:attribute name="color"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="b" type="xs:string"/>
+  <xs:element name="p">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xhtml:font"/>
+      </xs:sequence>
+      <xs:attribute name="class" use="required" type="xs:NCName"/>
+      <xs:attribute name="style" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="input">
+    <xs:complexType>
+      <xs:attribute name="class"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="size" type="xs:integer"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+      <xs:attribute name="value" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="span">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="xhtml:a"/>
+      </xs:sequence>
+      <xs:attribute name="class"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="a">
+    <xs:complexType mixed="true">
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="href" use="required" type="xs:anyURI"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:NCName"/>
+      <xs:attribute name="shape" use="required" type="xs:NCName"/>
+      <xs:attribute name="target" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

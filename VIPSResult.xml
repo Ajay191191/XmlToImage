@@ -1,0 +1,259 @@
+<VIPSPage Url="http://maharashtra.gov.in/english/Pages/Home.aspx" PageTitle="Home : Government Of Maharashtra, India" WindowWidth="1004" WindowHeight="1422" PageRectLeft="0" PageRectTop="0" PageRectWidth="1004" PageRectHeight="1422" neworder="0" order="0"><LayoutNode FrameSourceIndex="0" SourceIndex="40" DoC="2" ContainImg="1" IsImg="false" ContainTable="true" ContainP="0" TextLen="1460" LinkTextLen="1092" DOMCldNum="1" FontSize="18" FontWeight="700" BgColor="transparent" ObjectRectLeft="0" ObjectRectTop="0" ObjectRectWidth="1004" ObjectRectHeight="1422" ID="1" order="1"><LayoutNode FrameSourceIndex="0" SourceIndex="115;128" DoC="6" ContainImg="1" IsImg="false" ContainTable="false" ContainP="0" TextLen="104" LinkTextLen="65" DOMCldNum="2" FontSize="12" FontWeight="400" BgColor="transparent" ObjectRectLeft="0" ObjectRectTop="0" ObjectRectWidth="1000" ObjectRectHeight="149" Content="Skip to navigation | Skip to main content | Screen Reader Access      Language : मराठी |  EnglishA+ | A | A- " SRC="
+&lt;UL sizcache=&quot;5&quot; sizset=&quot;8&quot;&gt;&lt;LI sizcache=&quot;5&quot; sizset=&quot;8&quot;&gt;&lt;A title=&quot;Skip to navigation&quot; href=&quot;#TopNavMenu&quot;&gt;Skip to navigation&lt;/A&gt; &lt;/LI&gt;
+&lt;LI&gt;| &lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;9&quot;&gt;&lt;A title=&quot;Skip to main content&quot; href=&quot;#Content&quot;&gt;Skip to main content&lt;/A&gt; &lt;/LI&gt;
+&lt;LI&gt;| &lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;10&quot;&gt;&lt;A title=&quot;Screen Reader Access&quot; href=&quot;/english/Pages/ScreenReader.aspx&quot;&gt;Screen Reader Access&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt; 
+&lt;DIV class=header sizcache=&quot;5&quot; sizset=&quot;11&quot;&gt;&lt;DIV class=&quot;FL accessibility&quot; sizcache=&quot;5&quot; sizset=&quot;11&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Language :&lt;A href=&quot;/&quot;&gt; मराठी &lt;/A&gt;| &amp;nbsp;English&lt;/DIV&gt;
+&lt;DIV class=&quot;FR accessibility MR110 &quot; sizcache=&quot;5&quot; sizset=&quot;12&quot;&gt;&lt;A onclick=&quot;javascript:if(i &lt; 20)  body.style.fontSize=++i+'pt';&quot; href=&quot;#&quot;&gt;&lt;SPAN&gt;A+&lt;/SPAN&gt;&lt;/A&gt; | &lt;A onclick=&quot;javascript:body.style.fontSize='13pt'; i=13;&quot; href=&quot;#&quot;&gt;&lt;SPAN&gt;A&lt;/SPAN&gt;&lt;/A&gt; | &lt;A onclick=&quot;javascript:if(i &gt; 5){body.style.fontSize=--i+'pt';}&quot; href=&quot;#&quot;&gt;&lt;SPAN&gt;A-&lt;/SPAN&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=logo&gt;&lt;IMG title=&quot;Government of Maharashtra&quot; alt=&quot;Government of Maharashtra&quot; src=&quot;/_layouts/1033/Maha/images/english_logo.gif&quot; border=0&gt;&lt;/DIV&gt;&lt;/DIV&gt; " ID="1-1" order="2"/><LayoutNode FrameSourceIndex="0" SourceIndex="145;193" DoC="2" ContainImg="1" IsImg="false" ContainTable="true" ContainP="0" TextLen="1019" LinkTextLen="759" DOMCldNum="2" FontSize="13.2" FontWeight="400" BgColor="transparent" ObjectRectLeft="0" ObjectRectTop="149" ObjectRectWidth="1000" ObjectRectHeight="990" ID="1-2" order="3"><LayoutNode FrameSourceIndex="0" SourceIndex="145" DoC="9" ContainImg="0" IsImg="false" ContainTable="true" ContainP="0" TextLen="64" LinkTextLen="64" DOMCldNum="2" FontSize="10.2" FontWeight="700" BgColor="transparent" ObjectRectLeft="18" ObjectRectTop="149" ObjectRectWidth="960" ObjectRectHeight="90" Content="Home Citizen Business Tourist Government Other Government Departments  " SRC="
+&lt;DIV class=&quot;nav_bg FL&quot; sizcache=&quot;5&quot; sizset=&quot;15&quot;&gt;&lt;DIV class=navlinks id=TopNavMenu sizcache=&quot;5&quot; sizset=&quot;15&quot;&gt;&lt;!--SP Code--&gt;
+&lt;UL sizcache=&quot;5&quot; sizset=&quot;15&quot;&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;15&quot;&gt;&lt;A title=Home href=&quot;/english/&quot;&gt;Home&lt;/A&gt; &lt;/LI&gt;
+&lt;LI class=sep&gt;&lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;16&quot;&gt;&lt;A title=Citizen href=&quot;/english/citizen&quot;&gt;Citizen&lt;/A&gt; &lt;/LI&gt;
+&lt;LI class=sep&gt;&lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;17&quot;&gt;&lt;A title=Business href=&quot;/english/business&quot;&gt;Business&lt;/A&gt; &lt;/LI&gt;
+&lt;LI class=sep&gt;&lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;18&quot;&gt;&lt;A title=Tourist href=&quot;/english/tourist&quot;&gt;Tourist&lt;/A&gt; &lt;/LI&gt;
+&lt;LI class=sep&gt;&lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;19&quot;&gt;&lt;A title=Government href=&quot;/english/government&quot;&gt;Government&lt;/A&gt; &lt;/LI&gt;
+&lt;LI class=sep&gt;&lt;/LI&gt;
+&lt;LI sizcache=&quot;5&quot; sizset=&quot;20&quot;&gt;&lt;A title=&quot;Other Government Departments&quot; href=&quot;/english/other&quot;&gt;Other Government Departments&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;!--SP Code ends here--&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;s4-search s4-rp&quot; id=s4-searcharea sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TABLE class=s4-wpTopTable cellSpacing=0 cellPadding=0 width=&quot;100%&quot; border=0 sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TBODY sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TR sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TD vAlign=top sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;DIV id=WebPartWPQ1 allowDelete=&quot;false&quot; OnlyForMePart=&quot;true&quot; width=&quot;100%&quot; HasPers=&quot;true&quot; WebPartID=&quot;00000000-0000-0000-0000-000000000000&quot; sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;DIV id=SRSB sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TABLE class=&quot;ms-sbtable ms-sbtable-ex s4-search&quot; cellSpacing=0 cellPadding=0 border=0 sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TBODY sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TR class=ms-sbrow sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;
+&lt;TD class=ms-sbcell&gt;&lt;INPUT class=ms-sbplain onkeypress=&quot;javascript: return S7F95FCE9_OSBEK(event);&quot; id=ctl00_ctl00_PlaceHolderSearchAreaBase_ctl01_S7F95FCE9_InputKeywords title=Search... style=&quot;WIDTH: 170px&quot; accessKey=S alt=Search... maxLength=200 name=ctl00$ctl00$PlaceHolderSearchAreaBase$ctl01$S7F95FCE9_InputKeywords&gt;&lt;/TD&gt;
+&lt;TD class=&quot;ms-sbgo ms-sbcell&quot; sizcache=&quot;5&quot; sizset=&quot;21&quot;&gt;&lt;A id=ctl00_ctl00_PlaceHolderSearchAreaBase_ctl01_S7F95FCE9_go title=Search href=&quot;javascript:S7F95FCE9_Submit()&quot;&gt;&lt;IMG class=srch-gosearchimg onmouseover=&quot;this.src='\u002f_layouts\u002fimages\u002fgo_button.gif'&quot; title=Search style=&quot;BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px&quot; onmouseout=&quot;this.src='\u002f_layouts\u002fimages\u002fgo_button.gif'&quot; alt=Search src=&quot;/_layouts/images/go_button.gif&quot;&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;TD class=ms-sbLastcell&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FR search&quot; style=&quot;DISPLAY: none&quot;&gt;
+&lt;DIV class=FL&gt;&lt;INPUT value=Search name=search&gt;&lt;/DIV&gt;
+&lt;DIV class=FR&gt;&lt;INPUT class=go type=button&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt; " ID="1-2-1" order="4"/><LayoutNode FrameSourceIndex="0" SourceIndex="193" DoC="4" ContainImg="1" IsImg="false" ContainTable="true" ContainP="0" TextLen="955" LinkTextLen="695" DOMCldNum="1" FontSize="13.2" FontWeight="400" BgColor="#f8f8f8" ObjectRectLeft="0" ObjectRectTop="149" ObjectRectWidth="1000" ObjectRectHeight="990" ID="1-2-2" order="5"><LayoutNode FrameSourceIndex="0" SourceIndex="267" DoC="6" ContainImg="4" IsImg="false" ContainTable="false" ContainP="0" TextLen="370" LinkTextLen="299" DOMCldNum="4" FontSize="13.2" FontWeight="400" BgColor="#fff" ObjectRectLeft="2" ObjectRectTop="243" ObjectRectWidth="704" ObjectRectHeight="889" Content=" Quick Links 
+Gazetteers 
+Eco Survey 
+Tourism 
+Awards 
+Directory 
+Charter 
+e-Scholarship
+ 
+Maharashtra News
+ 
+More About Maharashtra
+Maharashtra State History
+Judiciary
+Government Departments
+Local Bodies
+DistrictsRTI ACT 2005
+Information under Section 4 of Right To Information Act 2005 pertaining to all Mantralaya Departments Citizen eServices
+Spotlighte-Pani Online Complaint Registration System " SRC="
+&lt;TD style=&quot;WIDTH: 60%&quot; vAlign=top sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;
+&lt;SCRIPT type=text/javascript&gt;
+$(function(){
+	$('#banner').infiniteBanner({
+		displayTime: 5000,
+		textholderHeight : .20
+	});
+});
+&lt;/SCRIPT&gt;
+
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;
+&lt;DIV class=&quot;FL PL5&quot;&gt;
+&lt;DIV&gt;&lt;IMG alt=Mantralay src=&quot;/_layouts/1033/Maha/images/Mantraliya.jpg&quot;&gt; &lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL PL5 PT5&quot; sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;
+&lt;DIV class=quickLinks&gt;
+&lt;DIV class=&quot;FL PA10 MT15&quot;&gt;Quick Links&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=quickLinkbg sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;28&quot;&gt;&lt;A class=&quot;&quot; onmouseover=&quot;MM_swapImage('Gazetteers','','/_layouts/1033/Maha/images/icon_gazettersh.gif',1)&quot; title=Gazetteers onmouseout=MM_swapImgRestore() href=&quot;http://cultural.maharashtra.gov.in/english/gazetteer/index.php&quot; target=_blank&gt;&lt;IMG id=Gazetteers height=32 alt=Gazetteers src=&quot;/_layouts/1033/Maha/images/icon_gazetters.gif&quot; width=32 border=0 name=Gazetteers&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;29&quot;&gt;&lt;A class=&quot;&quot; href=&quot;http://cultural.maharashtra.gov.in/english/gazetteer/index.php&quot; target=_blank&gt;Gazetteers&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;30&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;30&quot;&gt;&lt;A onmouseover=&quot;MM_swapImage('Eco Survey','','/_layouts/1033/Maha/images/icon_ecosurveyh.gif',1)&quot; title=&quot;Eco Survey&quot; onmouseout=MM_swapImgRestore() href=&quot;PDF/Esm_10_11_Eng.pdf&quot;&gt;&lt;IMG id=&quot;Eco Survey&quot; height=32 alt=&quot;Eco Survey&quot; src=&quot;/_layouts/1033/Maha/images/icon_ecosurvey.gif&quot; width=32 border=0 name=&quot;Eco Survey&quot;&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;31&quot;&gt;&lt;A href=&quot;PDF/Esm_10_11_Eng.pdf&quot;&gt;Eco Survey&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;32&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;32&quot;&gt;&lt;A class=&quot;&quot; onmouseover=&quot;MM_swapImage('Maharashtra Tourism','','/_layouts/1033/Maha/images/icon_tourismh.gif',1)&quot; title=&quot;External link- Maharashtra Tourism&quot; onmouseout=MM_swapImgRestore() href=&quot;http://www.maharashtratourism.gov.in/&quot; target=_blank&gt;&lt;IMG id=&quot;Maharashtra Tourism&quot; height=32 alt=&quot;External link- Maharashtra Tourism&quot; src=&quot;/_layouts/1033/Maha/images/icon_tourism.gif&quot; width=32 border=0 name=&quot;Maharashtra Tourism&quot;&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;33&quot;&gt;&lt;A class=&quot;&quot; href=&quot;http://www.maharashtratourism.gov.in/&quot; target=_blank&gt;Tourism&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;34&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;34&quot;&gt;&lt;A onmouseover=&quot;MM_swapImage('Awards','','/_layouts/1033/Maha/images/icon_awardsh.gif',1)&quot; title=Awards onmouseout=MM_swapImgRestore() href=&quot;Awards.aspx&quot;&gt;&lt;IMG id=Awards height=32 alt=Awards src=&quot;/_layouts/1033/Maha/images/icon_awards.gif&quot; width=32 border=0 name=Awards&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;35&quot;&gt;&lt;A href=&quot;Awards.aspx&quot;&gt;Awards&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;36&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;36&quot;&gt;&lt;A onmouseover=&quot;MM_swapImage('Telephone Directory','','/_layouts/1033/Maha/images/icon_telephonedirh.gif',1)&quot; title=&quot;Telephone Directory&quot; onmouseout=MM_swapImgRestore() href=&quot;../government/Pages/Secretary.aspx&quot;&gt;&lt;IMG id=&quot;Telephone Directory&quot; height=32 alt=&quot;Telephone Directory&quot; src=&quot;/_layouts/1033/Maha/images/icon_telephonedir.gif&quot; width=32 border=0 name=&quot;Telephone Directory&quot;&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;37&quot;&gt;&lt;A href=&quot;../government/Pages/Secretary.aspx&quot;&gt;Directory&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;38&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;38&quot;&gt;&lt;A onmouseover=&quot;MM_swapImage('Citizen Charter','','/_layouts/1033/Maha/images/icon_citizench.gif',1)&quot; title=&quot;Citizen Charter&quot; onmouseout=MM_swapImgRestore() href=&quot;CitizenCharter.aspx&quot;&gt;&lt;IMG id=&quot;Citizen Charter&quot; height=32 alt=&quot;Citizen Charter&quot; src=&quot;/_layouts/1033/Maha/images/icon_citizenc.gif&quot; width=32 border=0 name=&quot;Citizen Charter&quot;&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;39&quot;&gt;&lt;A href=&quot;CitizenCharter.aspx&quot;&gt;Charter&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;!--&lt;div class=&quot;link&quot;&gt;
+                		&lt;div&gt;&lt;a href=&quot;Scheme.aspx&quot; onmouseout=&quot;MM_swapImgRestore()&quot; title=&quot;Schemes&quot; onmouseover=&quot;MM_swapImage('Schemes','','/_layouts/1033/Maha/images/icon_schemesh.gif',1)&quot;&gt;&lt;img src=&quot;/_layouts/1033/Maha/images/icon_schemes.gif&quot; alt=&quot;Schemes&quot; name=&quot;Schemes&quot; width=&quot;32&quot; height=&quot;32&quot; border=&quot;0&quot; id=&quot;Schemes&quot; /&gt;&lt;/a&gt; &lt;/div&gt;
+                		&lt;div class=&quot;CL&quot;&gt;&lt;/div&gt;
+                		&lt;div&gt;&lt;a href=&quot;Scheme.aspx&quot;&gt;
+							Schemes&lt;/a&gt;&lt;/div&gt;
+               		&lt;/div&gt;--&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;40&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;40&quot;&gt;&lt;A onmouseover=&quot;MM_swapImage('Schemes','','../images/eschol.gif',1)&quot; title=e-Scholarship onmouseout=MM_swapImgRestore() href=&quot;http://mahaeschol.maharashtra.gov.in/escholarship/login.aspx&quot;&gt;&lt;IMG id=eschol height=32 alt=योजना src=&quot;/_layouts/1033/Maha/images/eschol.gif&quot; width=32 border=0 name=Schemes&gt;&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;41&quot;&gt;&lt;A title=e-Scholarship href=&quot;http://mahaeschol.maharashtra.gov.in/escholarship/login.aspx&quot;&gt;e-Scholarship&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL PL5 PT5&quot; sizcache=&quot;5&quot; sizset=&quot;42&quot;&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;42&quot;&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=howdoi id=Content sizcache=&quot;5&quot; sizset=&quot;42&quot;&gt;
+&lt;DIV sizcache=&quot;5&quot; sizset=&quot;42&quot;&gt;
+&lt;DIV class=title&gt;&lt;/DIV&gt;
+&lt;DIV class=link&gt;&lt;IMG class=PL47 height=80 src=&quot;/_layouts/1033/Maha/images/mahaNews-logo.gif&quot; width=124 border=0&gt; &lt;/DIV&gt;
+&lt;DIV class=link style=&quot;TEXT-ALIGN: center&quot; sizcache=&quot;5&quot; sizset=&quot;42&quot;&gt;&lt;A class=bgImage title=&quot;External link- Maha News - opens in a new Window&quot; href=&quot;http://mahanews.gov.in/&quot; target=_blank&gt;Maharashtra News&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL PL7 PR7&quot; sizcache=&quot;4&quot; sizset=&quot;43&quot;&gt;
+&lt;DIV class=specialReporth&gt;
+&lt;DIV class=title&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=specialReportbg sizcache=&quot;5&quot; sizset=&quot;43&quot;&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;43&quot;&gt;&lt;A class=&quot;&quot; title=&quot;External link- Special Report on Aadhaar - opens in a new window&quot; href=&quot;http://aadhaar.maharashtra.gov.in&quot; target=_blank&gt;&lt;IMG height=80 alt=&quot;External link- Special Report on Budget 2010 - opens in a new window&quot; src=&quot;/_layouts/1033/Maha/images/specialReport_img.gif&quot; width=124 border=0&gt; &lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=specialReportb&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;44&quot;&gt;
+&lt;DIV class=knowmore sizcache=&quot;5&quot; sizset=&quot;44&quot;&gt;
+&lt;DIV class=title&gt;More About Maharashtra&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;44&quot;&gt;&lt;A class=bgImage title=&quot;Maharashtra State History&quot; href=&quot;http://www.maharashtratourism.gov.in/mtdc/HTML/MaharashtraTourism/Default.aspx?strpage=gethistory.html&quot; target=_blank&gt;Maharashtra State History&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;45&quot;&gt;&lt;A class=bgImage title=Judiciary href=&quot;http://bombayhighcourt.nic.in/&quot; target=_blank&gt;Judiciary&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;46&quot;&gt;&lt;A title=&quot;Government Departments&quot; href=&quot;InfoJunction.aspx&quot;&gt;Government Departments&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;47&quot;&gt;&lt;A title=&quot;Local Bodies&quot; href=&quot;LocalBodies.aspx&quot;&gt;Local Bodies&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;48&quot;&gt;&lt;A title=Districts href=&quot;district.aspx&quot;&gt;Districts&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL PB10 PT5 PL5&quot; sizcache=&quot;5&quot; sizset=&quot;49&quot;&gt;
+&lt;DIV class=&quot;FL rti&quot; sizcache=&quot;5&quot; sizset=&quot;49&quot;&gt;
+&lt;DIV class=title&gt;RTI ACT 2005&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=link sizcache=&quot;5&quot; sizset=&quot;49&quot;&gt;&lt;A title=&quot;RTI ACT 2005&quot; href=&quot;/RightToInformation/indexEng.html&quot;&gt;Information under Section 4 of Right To Information Act 2005 pertaining to all Mantralaya Departments&lt;/A&gt; &lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL PL7 PR7&quot; sizcache=&quot;5&quot; sizset=&quot;50&quot;&gt;
+&lt;DIV class=eServices sizcache=&quot;5&quot; sizset=&quot;50&quot;&gt;
+&lt;DIV class=title&gt;Citizen eServices&lt;/DIV&gt;
+&lt;DIV class=link align=center sizcache=&quot;5&quot; sizset=&quot;50&quot;&gt;&lt;A class=&quot;&quot; title=&quot;External link- MahaOnline for Citizen eServices -opens in a new window&quot; href=&quot;http://www.mahaonline.gov.in&quot; target=_blank&gt;&lt;IMG height=55 alt=&quot;External link- MahaOnline for Citizen eServices -opens in a new window&quot; src=&quot;/_layouts/1033/Maha/images/mahaonline.gif&quot; width=136 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;51&quot;&gt;
+&lt;DIV class=spotlight sizcache=&quot;5&quot; sizset=&quot;51&quot;&gt;
+&lt;DIV class=&quot;title FL&quot;&gt;Spotlight&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;spot FL&quot; sizcache=&quot;5&quot; sizset=&quot;51&quot;&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;51&quot;&gt;&lt;A class=&quot;&quot; title=spotlight href=&quot;http://www.epani.maharashtra.gov.in/epani/welcome.aspx&quot; target=_blank&gt;&lt;IMG height=42 alt=spotlight src=&quot;/_layouts/1033/Maha/images/e.gif&quot; width=32 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL link&quot; sizcache=&quot;5&quot; sizset=&quot;52&quot;&gt;&lt;A class=bgImage title=&quot;Complaint Registration System&quot; href=&quot;http://www.epani.maharashtra.gov.in/epani/welcome.aspx&quot; target=_blank&gt;e-Pani Online Complaint Registration System&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/TD&gt; " ID="1-2-2-1" order="6"/><LayoutNode FrameSourceIndex="0" SourceIndex="393" DoC="8" ContainImg="6" IsImg="false" ContainTable="false" ContainP="0" TextLen="531" LinkTextLen="372" DOMCldNum="8" FontSize="10.8" FontWeight="400" BgColor="#fff" ObjectRectLeft="708" ObjectRectTop="243" ObjectRectWidth="290" ObjectRectHeight="889" Content="From His Excellency GovernorShri. K. ShankarnarayananProfile | Visit Governor's WebsiteFrom Hon. Chief MinisterShri. Prithviraj ChavanProfile From Hon. Dy. Chief MinisterShri. Ajit Anantrao PawarProfileWhat's newView list of Maharashtra State Government New news. 
+Tenders | eTendering 
+View list of Tenders for Departments
+Government Resolutions View list of detailed GR's of Departments
+Cabinet Decisions View list of detailed Cabinet Decisions
+From CM's Desk View list of news from Chief Minster.
+Rate Contracts View list of rate contracts. " SRC="
+&lt;TD style=&quot;WIDTH: 25.5%&quot; vAlign=top sizcache=&quot;5&quot; sizset=&quot;53&quot;&gt;&lt;DIV class=&quot;FL w280&quot; sizcache=&quot;5&quot; sizset=&quot;53&quot;&gt;
+&lt;DIV class=&quot;FL gcmdcm&quot; sizcache=&quot;5&quot; sizset=&quot;53&quot;&gt;
+&lt;DIV class=gcmdcm_section sizcache=&quot;5&quot; sizset=&quot;53&quot;&gt;
+&lt;DIV class=&quot;FL img&quot;&gt;&lt;IMG height=55 alt=&quot;Shri. K. Shankarnarayanan&quot; src=&quot;/_layouts/1033/Maha/Images/governor.gif&quot; width=53 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot;&gt;From His Excellency Governor&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL name&quot;&gt;Shri. K. Shankarnarayanan&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL link&quot; sizcache=&quot;5&quot; sizset=&quot;53&quot;&gt;&lt;A title=Profile href=&quot;GovrProfilePage.aspx&quot;&gt;Profile&lt;/A&gt; | &lt;A class=bgImage title=&quot;External link- Visit Governor's Website- open in a new window&quot; href=&quot;http://rajbhavan.maharashtra.gov.in/&quot; target=_blank&gt;Visit Governor's Website&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=gcmdcm_section sizcache=&quot;5&quot; sizset=&quot;55&quot;&gt;
+&lt;DIV class=&quot;FL img&quot;&gt;&lt;IMG title=&quot;Shri. Prithviraj Chavan&quot; height=55 alt=&quot;Shri. Prithviraj Chavan&quot; src=&quot;/_layouts/1033/Maha/Images/cm.gif&quot; width=53 border=0&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot;&gt;From Hon. Chief Minister&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL name&quot;&gt;Shri. Prithviraj Chavan&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL link&quot; sizcache=&quot;5&quot; sizset=&quot;55&quot;&gt;&lt;A title=Profile href=&quot;CMProfilePage.aspx&quot;&gt;Profile&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=gcmdcm_section sizcache=&quot;5&quot; sizset=&quot;56&quot;&gt;
+&lt;DIV class=&quot;FL img&quot;&gt;&lt;IMG title=&quot;Shri. Ajit Anantrao Pawar&quot; height=55 alt=&quot;Shri. Ajit Anantrao Pawar&quot; src=&quot;/_layouts/1033/Maha/Images/dcm.gif&quot; width=53 border=0&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot;&gt;From Hon. Dy. Chief Minister&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL name&quot;&gt;Shri. Ajit Anantrao Pawar&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL link&quot; sizcache=&quot;5&quot; sizset=&quot;56&quot;&gt;&lt;A title=Profile href=&quot;DCMProfilePage.aspx&quot;&gt;Profile&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=PT5 sizcache=&quot;5&quot; sizset=&quot;57&quot;&gt;
+&lt;DIV class=hsections sizcache=&quot;5&quot; sizset=&quot;57&quot;&gt;
+&lt;DIV class=title sizcache=&quot;5&quot; sizset=&quot;57&quot;&gt;&lt;A title=News href=&quot;News.aspx&quot;&gt;What's new&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=desc sizcache=&quot;5&quot; sizset=&quot;58&quot;&gt;&lt;A href=&quot;News.aspx&quot;&gt;View list of Maharashtra State Government New news. &lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=PT5 sizcache=&quot;5&quot; sizset=&quot;59&quot;&gt;
+&lt;DIV class=hsections sizcache=&quot;5&quot; sizset=&quot;59&quot;&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;59&quot;&gt;&lt;A title=Tenders href=&quot;Tenders.aspx&quot;&gt;&lt;IMG height=55 alt=Tenders src=&quot;/_layouts/1033/Maha/Images/tenders.gif&quot; width=53 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot; sizcache=&quot;5&quot; sizset=&quot;60&quot;&gt;&lt;A title=Tenders href=&quot;Tenders.aspx&quot;&gt;Tenders&lt;/A&gt; | &lt;A class=bgImage title=Tenders href=&quot;http://maharashtra.etenders.in/mah/index.asp&quot; target=_blank&gt;eTendering&lt;/A&gt; 
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=descimg sizcache=&quot;5&quot; sizset=&quot;62&quot;&gt;&lt;A href=&quot;Tenders.aspx&quot;&gt;View list of Tenders for Departments&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=PT5 sizcache=&quot;5&quot; sizset=&quot;63&quot;&gt;
+&lt;DIV class=hsections sizcache=&quot;5&quot; sizset=&quot;63&quot;&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;63&quot;&gt;&lt;A title=&quot;Government Resolutions&quot; href=&quot;GResolution.aspx&quot;&gt;&lt;IMG height=55 alt=&quot;Government Resolutions&quot; src=&quot;/_layouts/1033/Maha/Images/icon_GR.gif&quot; width=53 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot; sizcache=&quot;5&quot; sizset=&quot;64&quot;&gt;&lt;A title=&quot;Government Resolutions&quot; href=&quot;GResolution.aspx&quot;&gt;Government Resolutions&lt;/A&gt; 
+&lt;DIV class=descimg sizcache=&quot;5&quot; sizset=&quot;65&quot;&gt;&lt;A href=&quot;GResolution.aspx&quot;&gt;View list of detailed GR's of Departments&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=PT5 sizcache=&quot;5&quot; sizset=&quot;66&quot;&gt;
+&lt;DIV class=hsections sizcache=&quot;5&quot; sizset=&quot;66&quot;&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;66&quot;&gt;&lt;A title=&quot;Government Resolutions&quot; href=&quot;/english/citizen/Pages/CabDecision.aspx&quot;&gt;&lt;IMG height=55 alt=&quot;Government Resolutions&quot; src=&quot;/_layouts/1033/Maha/Images/cabitnet.gif&quot; width=53 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot; sizcache=&quot;5&quot; sizset=&quot;67&quot;&gt;&lt;A title=&quot;Government Resolutions&quot; href=&quot;/english/citizen/Pages/CabDecision.aspx&quot;&gt;Cabinet Decisions&lt;/A&gt; 
+&lt;DIV class=descimg sizcache=&quot;5&quot; sizset=&quot;68&quot;&gt;&lt;A href=&quot;/english/citizen/Pages/CabDecision.aspx&quot;&gt;View list of detailed Cabinet Decisions&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=PT5 sizcache=&quot;5&quot; sizset=&quot;69&quot;&gt;
+&lt;DIV class=hsections sizcache=&quot;5&quot; sizset=&quot;69&quot;&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;69&quot;&gt;&lt;A title=&quot;From CM's Desk&quot; href=&quot;/english/other/Pages/CMNews.aspx&quot;&gt;&lt;IMG height=55 alt=&quot;Government Resolutions&quot; src=&quot;/_layouts/1033/Maha/Images/icon_CMDesk.jpg&quot; width=53 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot; sizcache=&quot;5&quot; sizset=&quot;70&quot;&gt;&lt;A title=&quot;From CM's Desk&quot; href=&quot;/english/other/Pages/CMNews.aspx&quot;&gt;From CM's Desk&lt;/A&gt; 
+&lt;DIV class=descimg sizcache=&quot;5&quot; sizset=&quot;71&quot;&gt;&lt;A href=&quot;/english/other/Pages/CMNews.aspx&quot;&gt;View list of news from Chief Minster.&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=PT5 sizcache=&quot;5&quot; sizset=&quot;72&quot;&gt;
+&lt;DIV class=hsections sizcache=&quot;5&quot; sizset=&quot;72&quot;&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;72&quot;&gt;&lt;A title=&quot;Rate Contracts&quot; href=&quot;/english/Business/Pages/RateContracts.aspx&quot;&gt;&lt;IMG height=55 alt=&quot;Rate Contracts&quot; src=&quot;/_layouts/1033/Maha/images/ratecontracts.jpg&quot; width=53 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL title&quot; sizcache=&quot;5&quot; sizset=&quot;73&quot;&gt;&lt;A title=&quot;Rate Contracts&quot; href=&quot;/english/Business/Pages/RateContracts.aspx&quot;&gt;Rate Contracts&lt;/A&gt; 
+&lt;DIV class=descimg sizcache=&quot;5&quot; sizset=&quot;74&quot;&gt;&lt;A href=&quot;/english/Business/Pages/RateContracts.aspx&quot;&gt;View list of rate contracts.&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;MT5 PT5 share&quot; sizcache=&quot;5&quot; sizset=&quot;75&quot;&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;75&quot;&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;75&quot;&gt;&lt;A title=Print onclick=window.print(); href=&quot;javascript:void(0);&quot;&gt;&lt;IMG height=18 alt=Print src=&quot;/_layouts/1033/Maha/images/print_icon.gif&quot; width=48 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;76&quot;&gt;&lt;A title=Email href=&quot;mailto:webmaintenance@maharashtra.gov.in&quot;&gt;&lt;IMG height=18 alt=Email src=&quot;/_layouts/1033/Maha/images/email_icon.gif&quot; width=48 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=FL sizcache=&quot;5&quot; sizset=&quot;77&quot;&gt;&lt;A title=Bookmark onclick=&quot;bookmarksite('Maharashtra Government Site',document.URL);&quot; href=&quot;#&quot;&gt;&lt;IMG height=18 alt=Bookmark src=&quot;/_layouts/1033/Maha/images/bookmark_icon.gif&quot; width=78 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/TD&gt; " ID="1-2-2-2" order="7"/></LayoutNode></LayoutNode><LayoutNode FrameSourceIndex="0" SourceIndex="511;517;557" DoC="6" ContainImg="8" IsImg="false" ContainTable="false" ContainP="0" TextLen="233" LinkTextLen="164" DOMCldNum="3" FontSize="18" FontWeight="700" BgColor="transparent" ObjectRectLeft="0" ObjectRectTop="1149" ObjectRectWidth="994" ObjectRectHeight="210" Content="Page last updated on: September 13, 2011 - 03:59:14 PM   WWW.MAHARASHTRA.GOV.INThis site belongs to Government of Maharashtra Privacy Policy | Copyright Information | Terms of Use
+Feedback | Hacking Notification | Contact Us 
+Sitemap | Help  " SRC="
+&lt;DIV class=pageUpdate&gt;Page last updated on: &lt;SPAN id=ctl00_ctl00_g_3b6f2019_da11_4a98_9f7d_799d8060f0bf_ctl00_lblDate&gt;September 13, 2011 - 03:59:14 PM&lt;/SPAN&gt;&lt;/DIV&gt; 
+&lt;DIV class=otherlink sizcache=&quot;5&quot; sizset=&quot;78&quot;&gt;&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;78&quot;&gt;&lt;A title=&quot;External link - National Portal of India - Opens in a new window&quot; href=&quot;http://india.gov.in/&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - National Portal of India - Opens in a new window&quot; src=&quot;/_layouts/1033/Maha/images/indiagov.gif&quot; width=183 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;79&quot;&gt;&lt;A title=&quot;External link - Mumbai Police Website - Opens in a new window&quot; href=&quot;http://www.mumbaipolice.org/&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Mumbai Police Website - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/mumbai_police.gif&quot; width=49 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;80&quot;&gt;&lt;A title=&quot;External link - Maharashtra State Police Website - Opens in a new window&quot; href=&quot;http://mahapolice.gov.in/&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Maharashtra State Police Website - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/maha_police.gif&quot; width=77 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;81&quot;&gt;&lt;A title=&quot;External link - Mumbai Traffic Police Website - Opens in a new window&quot; href=&quot;http://www.trafficpolicemumbai.org/&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Mumbai Traffic Police Website - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/mum_traffic.gif&quot; width=78 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;82&quot;&gt;&lt;A title=&quot;External link - Maharashtra Tourism Website - Opens in a new window&amp;#13;&amp;#10;&quot; href=&quot;http://www.maharashtratourism.gov.in/&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Maharashtra Tourism Website - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/maha_tourism.gif&quot; width=75 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;83&quot;&gt;&lt;A title=&quot;External link - Maharashtra Lok Rajya News - Opens in a new window&quot; href=&quot;http://dgipr.maharashtra.gov.in/dgiprweb/DisplayELokRajya.aspx?SecId=FhEoVViysKw=&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Maharashtra Lok Rajya News - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/lokrajya.gif&quot; width=85 border=0&gt; &lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;84&quot;&gt;&lt;A title=&quot;External link - Maha News website - Opens in a new window&quot; href=&quot;http://mahanews.gov.in/&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Maha News website - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/mahaNews.gif&quot; width=68 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL otherlinkSep&quot;&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL img&quot; sizcache=&quot;5&quot; sizset=&quot;85&quot;&gt;&lt;A title=&quot;External link - Maharashtra State Transport website - Opens in a new window&quot; href=&quot;http://www.msrtc.gov.in&quot; target=_blank&gt;&lt;IMG height=93 alt=&quot;External link - Maharashtra State Transport website - Opens in a new window&amp;#13;&amp;#10;&quot; src=&quot;/_layouts/1033/Maha/images/maha_transport.gif&quot; width=102 border=0&gt;&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt; 
+&lt;DIV class=&quot;FL footermaha&quot; sizcache=&quot;5&quot; sizset=&quot;86&quot;&gt;&lt;DIV class=&quot;FL text&quot; sizcache=&quot;5&quot; sizset=&quot;86&quot;&gt;&lt;A title=&quot;Government of Maharashtra&quot; href=&quot;http://www.maharashtra.gov.in&quot;&gt;WWW.MAHARASHTRA.GOV.IN&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV class=CL&gt;&lt;/DIV&gt;
+&lt;DIV class=&quot;FL link&quot; sizcache=&quot;5&quot; sizset=&quot;87&quot;&gt;&lt;A title=&quot;Government of Maharashtra&quot; href=&quot;#&quot;&gt;This site belongs to Government of Maharashtra&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV class=&quot;FL link&quot; style=&quot;DISPLAY: none&quot; sizcache=&quot;5&quot; sizset=&quot;88&quot;&gt;&lt;A title=&quot;Privacy Policy&quot; href=&quot;PrivacyPol.aspx&quot;&gt;Privacy Policy&lt;/A&gt; | &lt;A title=&quot;Copyright Information&quot; href=&quot;CopyRight.aspx&quot;&gt;Copyright Information&lt;/A&gt; | &lt;A title=&quot;Terms of Use&quot; href=&quot;TermsofUse.aspx&quot;&gt;Terms of Use&lt;/A&gt;&lt;BR&gt;&lt;A title=Feedback href=&quot;Feedback.aspx&quot;&gt;Feedback&lt;/A&gt; | &lt;A title=&quot;Hacking Notification&quot; href=&quot;HackNotice.aspx&quot;&gt;Hacking Notification&lt;/A&gt; | &lt;A title=&quot;Contact Us&quot; href=&quot;ContactUs.aspx&quot;&gt;Contact Us&lt;/A&gt; &lt;BR&gt;&lt;A title=Sitemap href=&quot;sitemap.aspx&quot;&gt;Sitemap&lt;/A&gt; | &lt;A title=Help href=&quot;Help.aspx&quot;&gt;Help&lt;/A&gt; &lt;/DIV&gt;&lt;/DIV&gt; " ID="1-3" order="8"/></LayoutNode></VIPSPage>

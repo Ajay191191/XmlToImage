@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="html">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="head"/>
+        <xs:element ref="body"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="head">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="script"/>
+          <xs:element ref="meta"/>
+          <xs:element ref="style"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="meta">
+    <xs:complexType>
+      <xs:attribute name="content" use="required"/>
+      <xs:attribute name="http-equiv" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="style">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="script"/>
+        <xs:element ref="form"/>
+        <xs:element maxOccurs="unbounded" ref="div"/>
+      </xs:sequence>
+      <xs:attribute name="leftmargin" use="required" type="xs:integer"/>
+      <xs:attribute name="marginheight" use="required" type="xs:integer"/>
+      <xs:attribute name="marginwidth" use="required" type="xs:integer"/>
+      <xs:attribute name="onload" use="required"/>
+      <xs:attribute name="topmargin" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="form">
+    <xs:complexType>
+      <xs:attribute name="action" use="required" type="xs:anyURI"/>
+      <xs:attribute name="method" use="required" type="xs:NCName"/>
+      <xs:attribute name="onsubmit" use="required"/>
+      <xs:attribute name="target" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="script">
+    <xs:complexType mixed="true">
+      <xs:attribute name="language" use="required" type="xs:NCName"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="div"/>
+        <xs:element minOccurs="0" ref="p"/>
+        <xs:element minOccurs="0" ref="table"/>
+        <xs:choice>
+          <xs:element ref="marquee"/>
+          <xs:element minOccurs="0" maxOccurs="unbounded" ref="center"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="align" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="marquee">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="a"/>
+        <xs:element ref="br"/>
+      </xs:choice>
+      <xs:attribute name="border" use="required" type="xs:integer"/>
+      <xs:attribute name="direction" use="required" type="xs:NCName"/>
+      <xs:attribute name="height" use="required" type="xs:integer"/>
+      <xs:attribute name="scrollamount" use="required" type="xs:integer"/>
+      <xs:attribute name="scrolldelay" use="required" type="xs:integer"/>
+      <xs:attribute name="style" use="required"/>
+      <xs:attribute name="width" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="center">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="table"/>
+        <xs:element minOccurs="0" ref="p"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="a"/>
+        <xs:element ref="font"/>
+        <xs:element ref="img"/>
+        <xs:element ref="span"/>
+      </xs:choice>
+      <xs:attribute name="align" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="span">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="a"/>
+      </xs:sequence>
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="style"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbody"/>
+      </xs:sequence>
+      <xs:attribute name="background"/>
+      <xs:attribute name="border" type="xs:integer"/>
+      <xs:attribute name="cellpadding" type="xs:integer"/>
+      <xs:attribute name="cellspacing" type="xs:integer"/>
+      <xs:attribute name="height"/>
+      <xs:attribute name="width" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tbody">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tr"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="td"/>
+      </xs:sequence>
+      <xs:attribute name="align" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="td">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="a"/>
+        <xs:element ref="br"/>
+        <xs:element ref="div"/>
+        <xs:element ref="font"/>
+        <xs:element ref="img"/>
+        <xs:element ref="p"/>
+        <xs:element ref="table"/>
+        <xs:element ref="iframe"/>
+        <xs:element ref="input"/>
+      </xs:choice>
+      <xs:attribute name="align" type="xs:NCName"/>
+      <xs:attribute name="background"/>
+      <xs:attribute name="bgcolor"/>
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="colspan" type="xs:integer"/>
+      <xs:attribute name="height" type="xs:integer"/>
+      <xs:attribute name="rowspan" type="xs:integer"/>
+      <xs:attribute name="style"/>
+      <xs:attribute name="valign" type="xs:NCName"/>
+      <xs:attribute name="width"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iframe">
+    <xs:complexType>
+      <xs:attribute name="frameborder" use="required" type="xs:integer"/>
+      <xs:attribute name="height" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="scrolling" use="required" type="xs:NCName"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="width" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="input">
+    <xs:complexType>
+      <xs:attribute name="alt"/>
+      <xs:attribute name="height" type="xs:integer"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="size" type="xs:integer"/>
+      <xs:attribute name="src"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+      <xs:attribute name="value" type="xs:NMTOKEN"/>
+      <xs:attribute name="width" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="a">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="font"/>
+        <xs:element ref="img"/>
+        <xs:element ref="strong"/>
+      </xs:choice>
+      <xs:attribute name="class" type="xs:NCName"/>
+      <xs:attribute name="href" use="required" type="xs:anyURI"/>
+      <xs:attribute name="target" type="xs:NCName"/>
+      <xs:attribute name="title"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="br">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="font">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="a"/>
+        <xs:element ref="br"/>
+        <xs:element ref="img"/>
+        <xs:element ref="strong"/>
+        <xs:element ref="b"/>
+      </xs:choice>
+      <xs:attribute name="color" use="required"/>
+      <xs:attribute name="face"/>
+      <xs:attribute name="size" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="b" type="xs:string"/>
+  <xs:element name="img">
+    <xs:complexType>
+      <xs:attribute name="align" type="xs:NCName"/>
+      <xs:attribute name="alt" use="required"/>
+      <xs:attribute name="border" type="xs:integer"/>
+      <xs:attribute name="height" use="required" type="xs:integer"/>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="width" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="strong" type="xs:string"/>
+</xs:schema>

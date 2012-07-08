@@ -1,0 +1,1 @@
+java -jar XmlSchemaToGraph.jar -o output.dot file:///D:/xmltograpviz/xsdtograph/VIPS.xsd

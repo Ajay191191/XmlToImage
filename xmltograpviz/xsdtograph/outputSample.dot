@@ -1,0 +1,46 @@
+digraph {
+subgraph clusterSchemaImpl813251 { label="http://www.w3.org/1999/xhtml"
+ComplexTypeImpl26780757 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl26779524>action: NCName}|{<AttributeUseImpl17876004>enctype: anySimpleType}|{<AttributeUseImpl29173348>id: NCName}|{<AttributeUseImpl19106770>method: NCName}|{<AttributeUseImpl11582167>name: NCName}}}}", color="red"];
+ModelGroupImpl26440236 [shape="record", label="{sequence of}"];
+ElementDecl30411188 [shape="record", label="{meta}", color="blue"];
+ComplexTypeImpl8106640 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl20324370>name: NCName}|{<AttributeUseImpl7578443>type: NCName}|{<AttributeUseImpl31822120>value: NCName}}}}", color="red"];
+ComplexTypeImpl15778003 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl16607409 [shape="record", label="{title}", color="blue"];
+ElementDecl25326212 [shape="record", label="{head}", color="blue"];
+ComplexTypeImpl4916061 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl20248218 [shape="record", label="{body}", color="blue"];
+ComplexTypeImpl4909906 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl2758093 [shape="record", label="{input}", color="blue"];
+ComplexTypeImpl22355327 [shape="record", label="{(anonymous)}", color="red"];
+ModelGroupImpl20698484 [shape="record", label="{sequence of}"];
+ModelGroupImpl14440411 [shape="record", label="{sequence of}"];
+ElementDecl18983808 [shape="record", label="{html}", color="blue"];
+ElementDecl22976342 [shape="record", label="{p|{Type|string}}", color="blue"];
+ElementDecl19690856 [shape="record", label="{br}", color="blue"];
+ComplexTypeImpl33081055 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl23255990>clear: NCName}}}}", color="red"];
+ComplexTypeImpl21375057 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl2628939>content: anySimpleType}|{<AttributeUseImpl26956311>name: NCName}}}}", color="red"];
+ElementDecl14962806 [shape="record", label="{form}", color="blue"];
+SchemaImpl813251 [shape="record", label="{http://www.w3.org/1999/xhtml}"];
+ModelGroupImpl21764429 [shape="record", label="{choice of}"];
+}
+ComplexTypeImpl26780757 -> ModelGroupImpl21764429 [arrowhead="crowteeodot", arrowtail="diamond"];
+ElementDecl16607409 -> ComplexTypeImpl4909906 [arrowhead="normal"];
+ModelGroupImpl26440236 -> ElementDecl30411188 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl26440236 -> ElementDecl16607409 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl30411188 -> ComplexTypeImpl21375057 [arrowhead="normal"];
+ElementDecl18983808 -> ComplexTypeImpl22355327 [arrowhead="normal"];
+ElementDecl14962806 -> ComplexTypeImpl26780757 [arrowhead="normal"];
+ComplexTypeImpl4916061 -> ModelGroupImpl20698484 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl20248218 -> ComplexTypeImpl4916061 [arrowhead="normal"];
+ModelGroupImpl20698484 -> ElementDecl14962806 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl25326212 -> ComplexTypeImpl15778003 [arrowhead="normal"];
+ElementDecl2758093 -> ComplexTypeImpl8106640 [arrowhead="normal"];
+ModelGroupImpl14440411 -> ElementDecl20248218 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl21764429 -> ElementDecl19690856 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl19690856 -> ComplexTypeImpl33081055 [arrowhead="normal"];
+ModelGroupImpl20698484 -> ElementDecl22976342 [arrowhead="tee", arrowtail="diamond"];
+ComplexTypeImpl15778003 -> ModelGroupImpl26440236 [arrowhead="tee", arrowtail="diamond"];
+ComplexTypeImpl22355327 -> ModelGroupImpl14440411 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl14440411 -> ElementDecl25326212 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl21764429 -> ElementDecl2758093 [arrowhead="tee", arrowtail="diamond"];
+}

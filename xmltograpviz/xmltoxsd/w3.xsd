@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="html">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="head"/>
+        <xs:element ref="body"/>
+      </xs:sequence>
+      <xs:attribute name="dir" use="required" type="xs:NCName"/>
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+      <xs:attribute name="xml_lang" use="required" type="xs:NCName"/>
+      <xs:attribute name="xmlns_msdt" use="required" type="xs:anyURI"/>
+      <xs:attribute name="xmlns_o" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="head">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="meta"/>
+        <xs:element ref="title"/>
+        <xs:element maxOccurs="unbounded" ref="script"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meta">
+    <xs:complexType>
+      <xs:attribute name="content" use="required"/>
+      <xs:attribute name="http-equiv" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="script">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

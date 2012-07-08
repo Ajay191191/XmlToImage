@@ -1,0 +1,36 @@
+digraph {
+subgraph clusterSchemaImpl26828160 { label=""
+ComplexTypeImpl1913643 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl27891041>xmlns_o: anyURI}|{<AttributeUseImpl9319143>xmlns_x: anyURI}}}}", color="red"];
+ElementDecl30146205 [shape="record", label="{html}", color="blue"];
+SchemaImpl26828160 [shape="record", label="{}"];
+ElementDecl12285785 [shape="record", label="{meta}", color="blue"];
+ComplexTypeImpl19106770 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl28571894>type: anySimpleType}}}}", color="red"];
+ElementDecl20531348 [shape="record", label="{link}", color="blue"];
+ElementDecl28899428 [shape="record", label="{head}", color="blue"];
+ComplexTypeImpl31822120 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl21021313>href: anySimpleType}|{<AttributeUseImpl10605044>rel: NCName}}}}", color="red"];
+ComplexTypeImpl22438818 [shape="record", label="{(anonymous)}", color="red"];
+ComplexTypeImpl31564808 [shape="record", label="{(anonymous)|{Attrs|{{<AttributeUseImpl13756574>content: anySimpleType}|{<AttributeUseImpl16713087>http-equiv: NCName}|{<AttributeUseImpl12710158>name: NCName}}}}", color="red"];
+ModelGroupImpl229902 [shape="record", label="{sequence of}"];
+ComplexTypeImpl17007273 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl7791465 [shape="record", label="{body}", color="blue"];
+ComplexTypeImpl6166383 [shape="record", label="{(anonymous)}", color="red"];
+ElementDecl21764429 [shape="record", label="{title}", color="blue"];
+ModelGroupImpl4877503 [shape="record", label="{sequence of}"];
+ElementDecl17901443 [shape="record", label="{style}", color="blue"];
+}
+ModelGroupImpl4877503 -> ElementDecl7791465 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl229902 -> ElementDecl21764429 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl30146205 -> ComplexTypeImpl1913643 [arrowhead="normal"];
+ElementDecl17901443 -> ComplexTypeImpl19106770 [arrowhead="normal"];
+ModelGroupImpl229902 -> ElementDecl17901443 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl28899428 -> ComplexTypeImpl17007273 [arrowhead="normal"];
+ElementDecl7791465 -> ComplexTypeImpl22438818 [arrowhead="normal"];
+ElementDecl12285785 -> ComplexTypeImpl31564808 [arrowhead="normal"];
+ComplexTypeImpl17007273 -> ModelGroupImpl229902 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl229902 -> ElementDecl12285785 [arrowhead="crowtee", arrowtail="diamond"];
+ModelGroupImpl4877503 -> ElementDecl28899428 [arrowhead="tee", arrowtail="diamond"];
+ModelGroupImpl229902 -> ElementDecl20531348 [arrowhead="crowtee", arrowtail="diamond"];
+ComplexTypeImpl1913643 -> ModelGroupImpl4877503 [arrowhead="tee", arrowtail="diamond"];
+ElementDecl21764429 -> ComplexTypeImpl6166383 [arrowhead="normal"];
+ElementDecl20531348 -> ComplexTypeImpl31822120 [arrowhead="normal"];
+}
